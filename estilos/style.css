@@ -9,7 +9,7 @@
 html, body {
     height: 100vh;
     width: 100vw;
-    background-color: black;
+   background-image: url(../imagens/fundo-madeira.jpg);
 }
 
 body {
@@ -31,6 +31,25 @@ section#telefone {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+section#redes-sociais img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    box-sizing: border-box;
+}
+
+section#redes-sociais {
+    text-align: right;
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.603);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.589);
+    transition: transform 0.5s, border 0.5s;
 }
 
 iframe#tela {
